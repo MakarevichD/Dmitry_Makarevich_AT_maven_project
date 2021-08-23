@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"/>
+
+
+<suite>
+        <suite name = "XML Test Suite">
+        <test name = "Booking tests">
+        <classes>
+        <class name = "MyFirstTest"/>
+        <class name = "MyFirst1Test"/>
+        </classes>
+        </test>
+        </suite>
