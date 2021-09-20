@@ -25,8 +25,9 @@ public class BookingToParis {
 
         WebElement searchLocation = driver.findElement(By.name("ss"));
         searchLocation.sendKeys("Париж");
-        WebElement dateCheck = driver.findElement(By.className("bk-icon -experiments-calendar sb-date-picker_icon-svg"));
-        dateCheck.click();
+
+      //  WebElement dateCheck = driver.findElement(By.className("//span[@class = 'sb-date-field__icon sb-date-field__icon-btn bk-svg-wrapper calendar-restructure-sb']"));
+        //dateCheck.click();
 
 
     }
