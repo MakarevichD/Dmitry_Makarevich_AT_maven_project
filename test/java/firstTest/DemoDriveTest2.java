@@ -1,3 +1,5 @@
+package firstTest;
+
 import driver.Config;
 import driver.Driver;
 import org.junit.After;
