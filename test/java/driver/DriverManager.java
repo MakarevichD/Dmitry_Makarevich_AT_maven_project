@@ -12,6 +12,7 @@ public class DriverManager {
 
     public static WebDriver getDriver(Config config) {
 
+
         ChromeOptions options = new ChromeOptions();
 
 
@@ -34,3 +35,4 @@ public class DriverManager {
         return webDriver;
     }
 }
+

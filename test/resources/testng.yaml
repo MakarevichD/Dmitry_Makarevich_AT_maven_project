@@ -1,0 +1,8 @@
+name: YAML Test Suite
+parllel : classes
+threadCount : 2
+tests:
+  - name: Booking test
+  classes :
+    - suites.testng.Search1TestNgTest
+    - suites.testng.Search2TestNgTest
